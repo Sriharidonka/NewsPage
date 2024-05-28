@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(Background.jpg);
+}
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav .heading h1 {
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 30px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px;
+    padding-right: 5px;
+    border: 2px solid;
+}
+.icon ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.icon ul li {
+    /* padding: 0 20px; */
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 10px;
+    color: black;
+    position: relative;
+}
+.icon ul li::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.icon ul li a:active{
+    color: red;
+}
+.icon ul li:hover::after{
+    width: 100%;
+}
+.icon ul a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.enter {
+    height: auto;
+    width: 65%;
+    background-color: black;
+    margin: 25px;
+    border: 2px solid;
+    padding-bottom: 10px;
+} 
+.enter img{
+    width: 100%;
+}
+.enter ul li{
+    margin-left: 30px;
+    color: white;
+    padding: 5px 0;
+}
+
+.hd h2{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.enter a{
+    color: white;
+    font-size: 1.5rem;
+}
+.enter a:hover{
+    color: blueviolet;
+}
+.anch{
+    text-align: right;
+    padding-right: 10px;
+}
+.sport{
+    height: auto;
+    width: 65%;
+    background-color: black;
+    margin: 25px;
+    border: 2px solid;
+    padding-bottom: 10px;
+}
+.sport img{
+    width: 100%;
+}
+.sport ul li{
+    margin-left: 30px;
+    color: white;
+    padding: 5px 0;
+}
+.sport a{
+    color: white;
+    font-size: 1.5rem;
+}
+.sport a:hover{
+    color: blueviolet;
+}
+.Polit{
+    height: auto;
+    width: 65%;
+    background-color: black;
+    margin: 25px;
+    border: 2px solid;
+    padding-bottom: 10px;
+}
+.Polit img{
+    width: 100%;
+}
+.Polit ul li{
+    margin-left: 30px;
+    color: white;
+    padding: 5px 0;
+}
+.Polit a{
+    color: white;
+    font-size: 1.5rem;
+}
+.Polit a:hover{
+    color: blueviolet;
+}
+.Edu{
+    height: auto;
+    width: 65%;
+    background-color: black;
+    margin: 25px;
+    border: 2px solid;
+    padding-bottom: 10px;
+}
+.Edu img{
+    width: 100%;
+}
+.Edu ul li{
+    margin-left: 30px;
+    color: white;
+    padding: 5px 0;
+}
+.Edu a{
+    color: white;
+    font-size: 1.5rem;
+}
+.Edu a:hover{
+    color: blueviolet;
+}
